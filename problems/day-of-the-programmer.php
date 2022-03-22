@@ -21,6 +21,3 @@ function dayOfProgrammer($year)
 
     return date_format($date, 'd.m.Y');
 }
-
-$year = 1918;
-$result = dayOfProgrammer($year);
